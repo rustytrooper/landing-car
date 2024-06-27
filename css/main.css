@@ -1,0 +1,31 @@
+@import url('./mainSection.css');
+@import url('./aboutSection.css');
+@import url('./featuresSection.css');
+@import url('./sliderSection.css');
+@import url('./contactsSection.css');
+
+:root {
+  --header-font:  "Audiowide", sans-serif;
+  --regular-font: "Gruppo", sans-serif;
+
+  --large-font: 7vh;
+  --medium-font: 5vh;
+  --small-font: 3vh;
+  --extra-small-font: 2vh
+}
+
+body {
+  color: white;
+  background-color: black;
+  font-family: "Audiowide", sans-serif;
+}
+
+
+*, 
+*::after, 
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
