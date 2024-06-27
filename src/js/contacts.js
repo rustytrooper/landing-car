@@ -10,8 +10,7 @@ function contactsHover(e) {
   })
 }
 
-function contactsNoHover(e) {
-  // const currentLink = e.target;
+function contactsNoHover() {
   linksArr.forEach(link => {
     if (link.classList.contains('contact-hover')) {
       link.classList.remove('contact-hover')

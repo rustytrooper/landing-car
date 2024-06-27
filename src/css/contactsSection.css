@@ -138,6 +138,9 @@
 }
 
 @media (max-width: 695px){
+  .section-contacts-links {
+    margin-top: 10vh;
+  }
   .link-install,
   .link-sourcecode,
   .link-website,
